@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/vip_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vip_video" />
+
+    <Button
+        android:id="@+id/vip_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vip_article" />
+
+    <Button
+        android:id="@+id/goto_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/goto_parent" />
+    
+        <ListView
+        android:id="@+id/vip_ppt_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+        
+</LinearLayout>
